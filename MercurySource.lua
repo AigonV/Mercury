@@ -179,7 +179,7 @@ function Library:object(class, properties)
 	end
 
 	function methods:round(radius)
-		radius = radius or 6
+		radius = radius or 3
 		Library:object("UICorner", {
 			Parent = localObject,
 			CornerRadius = UDim.new(0, radius)
