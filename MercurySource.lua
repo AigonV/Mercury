@@ -885,7 +885,7 @@ function Library:create(options)
 	settingsTab:keybind{
 		Name = "Toggle Key",
 		Description = "Key to show/hide the UI.",
-		Keybind = Enum.KeyCode.Delete,
+		Keybind = Enum.KeyCode.RightControl,
 		Callback = function()
 			self.Toggled = not self.Toggled
 			Library:show(self.Toggled)
@@ -895,7 +895,7 @@ function Library:create(options)
 	settingsTab:toggle{
 		Name = "Lock Dragging",
 		Description = "Makes sure you can't drag the UI outside of the window.",
-		StartingState = true,
+		StartingState = false,
 		Callback = function(state)
 			Library.LockDragging = state
 		end,
