@@ -74,7 +74,7 @@ local Library = {
 		Vaporwave = {},
 		OperaGX = {
 			Main = Color3.fromRGB(65, 2, 102),
-			Secondary = Color3.fromRGB(31, 29, 29),
+			Secondary = Color3.fromRGB(104, 28, 148),
 			Tertiary = Color3.fromRGB(161, 167, 166),
 
 			StrongText = Color3.fromHSV(0, 0, 1),        
